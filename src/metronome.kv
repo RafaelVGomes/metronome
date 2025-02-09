@@ -1,0 +1,10 @@
+#:kivy 2.3.1
+
+<MetronomeUI>:
+  orientation: 'vertical'
+  Label:
+    text: "Metronome"
+  
+  Button:
+    text: "Stop" if root.is_metronome_running else "Start"
+    on_press: root.toggle_metronome()

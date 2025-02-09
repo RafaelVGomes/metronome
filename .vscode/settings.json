@@ -1,0 +1,16 @@
+{
+    "python.analysis.typeCheckingMode": "standard",
+    "cSpell.words": [
+        "boxlayout",
+        "kivy"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}
